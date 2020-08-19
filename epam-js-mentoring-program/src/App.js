@@ -3,12 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import MyClassComponent from './MyClassComponent';
 import MyReactPureComponent from './MyReactPureComponent';
+import FunctionalComponent from './FunctionalComponent';
 
 function App() {
   return (
     <div className="App" id="root">
-        <MyClassComponent></MyClassComponent>
-        <MyReactPureComponent></MyReactPureComponent>
+        <MyClassComponent/>
+        <MyReactPureComponent/>
+        <FunctionalComponent/>
     </div>
   );
 }
