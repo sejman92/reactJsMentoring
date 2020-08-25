@@ -1,0 +1,29 @@
+.btn-container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.btn{
+    display: block;
+    box-sizing: border-box;
+    padding: 2px;
+    width: 80%;
+    max-width: 200px;
+    background: #fff; /* fallback color for old browsers */
+    background: rgba(85, 85, 85, 0.8);
+    border-radius: 8px;
+    border: 1px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
+
+.btn-text{
+    color: #F65261;
+    font-weight: bold;
+    font-size: 19pt;
+    font-family: helvetica, arial, sans-serif;
+}

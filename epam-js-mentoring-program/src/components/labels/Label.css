@@ -1,0 +1,9 @@
+.label-container{
+    color: white;
+    font-size: 35pt;
+    font-weight: BOLD;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 50px;
+    justify-content: left;
+}

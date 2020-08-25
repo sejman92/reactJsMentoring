@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import HeaderComponent from './components/header/HeaderComponent';
+import HeaderContainer from './components/header/container/HeaderContainer';
 
 function App() {
   return (
-    <HeaderComponent/>
+      <HeaderContainer/>
   );
 }
 
