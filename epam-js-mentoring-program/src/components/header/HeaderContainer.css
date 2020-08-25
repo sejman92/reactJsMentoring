@@ -4,7 +4,7 @@
     margin: 0;
     list-style: none;
     display: flex;
-    background-image: url("./../../../img/bg3.png");
+    background-image: url("./../../img/bg3.png");
 }
 
 .row-direction {

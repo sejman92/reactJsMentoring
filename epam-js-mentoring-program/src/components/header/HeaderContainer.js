@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import SearchPane from '../../search/SearchPane'
-import AddMovieButton from '../../buttons/add-movie/AddMovieButton'
+import SearchPane from '../search/SearchPane'
+import AddMovieButton from '../buttons/AddMovieButton'
 import './HeaderContainer.css'
-import Label from "../../labels/Label"
+import Label from "../labels/Label"
 
 const boldTitle = "netflix"
 const lightTitle = "Roulette"
