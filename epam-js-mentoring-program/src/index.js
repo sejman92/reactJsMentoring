@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
+const element = React.createElement('p', {}, "Hello from CreateElement")
+const container = React.createElement('div', {},  [element, <App/>]
+)
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  container,
   document.getElementById('root')
 );
 
